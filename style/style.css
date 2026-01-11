@@ -1,0 +1,94 @@
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+body {
+      font-family: "Lora", serif;
+    }
+
+    p {
+      font-family: "Nunito", sans-serif;
+    }
+
+    /* Slick Carousel Custom Styles - Using plain CSS so it works without Tailwind build step */
+    .product-main-slider .slick-prev,
+    .product-main-slider .slick-next {
+      position: absolute;
+      top: 45%;
+      transform: translateY(-50%);
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 9999px;
+      border: 1px solid #d1d5db;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      z-index: 10;
+    }
+
+    .product-main-slider .slick-prev {
+      left: 10px;
+    }
+
+    .product-main-slider .slick-next {
+      right: 10px;
+    }
+
+    .product-main-slider .slick-prev:before,
+    .product-main-slider .slick-next:before {
+      display: none;
+    }
+
+    .product-main-slider .slick-prev:hover,
+    .product-main-slider .slick-next:hover {
+      opacity: 0.8;
+    }
+
+    .product-thumb-slider .slick-slide {
+      opacity: 0.6;
+      transition: opacity 300ms ease-in-out;
+    }
+
+    .product-thumb-slider .slick-slide.slick-current {
+      opacity: 1;
+    }
+
+    .product-thumb-slider .slick-slide.slick-current img {
+      border-color: #039869 !important;
+    }
+
+    /* FrontRow Widget Styles */
+    .iframe-frontrow-sticker {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .iframe.frontrow {
+      display: none;
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 99999997;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+      @keyframes logo_scroll {
+        0% {
+          transform: translateX(0);
+        }
+
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+
+      .animate-logo-scroll {
+        animation: logo_scroll 20s infinite linear;
+      }
