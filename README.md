@@ -77,4 +77,18 @@ landing-page/
 
 ## Author
 
-**<img src="https://api.iconify.design/lucide:user.svg" width="16" height="16"> Nguyễn Vinh Quang**
+**<img src="https://api.iconify.design/lucide:user.svg" width="16" height="16"> Quang Nguyen**
+
+
+## License
+
+This project was created **solely for technical evaluation purposes** as part of a recruitment process.
+
+- The implementation is **non-commercial**
+- The code may **not be reused, redistributed, or deployed** for production purposes
+- All third-party assets, trademarks, and brand references belong to their respective owners
+
+© 2026 Quang Nguyen. All rights reserved.
+
+
+
